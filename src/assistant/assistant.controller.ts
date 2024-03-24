@@ -1,6 +1,6 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { AssistantService } from './assistant.service';
-import { QuestionDto } from './dtos/question.dts';
+import { QuestionDto } from './dtos/question.dto';
 
 @Controller('assistant')
 export class AssistantController {

@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import OpenAI from 'openai';
-import { QuestionDto } from './dtos/question.dts';
+import { QuestionDto } from './dtos/question.dto';
 import {
   checkCompleteStatusUseCase,
   createMessageUseCase,
